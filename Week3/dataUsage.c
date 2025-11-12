@@ -24,6 +24,8 @@
     double avgUse = dataUsage / dayOfMonth;
     double goodUse = numberGB / 30;
     if (avgUse > goodUse) {
-        printf()
+        printf("%f used, %f remaining\n", dayOfMonth, daysLeft);
+        printf("Average Daily Use: %f gb/day\n", avgUse);
+        printf("You are exceeding your correct Avg daily use (%f)
     }
  }
