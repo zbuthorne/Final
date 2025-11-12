@@ -25,7 +25,11 @@
     double goodUse = numberGB / 30;
     double useOver = (avgUse * daysLeft) - numberGB;
     double newAvg = (dataLeft / daysLeft);
-    if (avgUse > goodUse) {
+if (dataUsage > numberGB) {
+    printf("%f used, %f remaining\n", dayOfMonth, daysLeft);
+    printf("Average Daily Use: %f gb/day\n", avgUse);
+    printf("You have already met your limit for this month.  Looks like you're getting some overage charges...\n");
+}else if (avgUse > goodUse) {
         printf("%f used, %f remaining\n", dayOfMonth, daysLeft);
         printf("Average Daily Use: %f gb/day\n", avgUse);
         printf("You are exceeding your correct Avg daily use (%f)\n", goodUse);
@@ -33,11 +37,12 @@
         printf("%f GB\n", useOver);
         printf("To stay below your data plan use no more than %f GB/day\n", newAvg);
 
-    } else if (avgUse <= goodUse);{
+    } else {
         printf("%f used, %f remaining\n", dayOfMonth, daysLeft);
         printf("Average Daily Use: %f gb/day\n", avgUse);
         printf("You are at or below your correct Avg daily use (%f)\n", goodUse);
         printf("You can use up to %f GB/day and stay below your data plan limit\n",newAvg);
 
-    }
+
  }
+return (0)
