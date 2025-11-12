@@ -12,7 +12,7 @@
 
  int main(int argc, char **argv) {
     double numberGB, dayOfMonth, dataUsage;
-    if (argc!=[5]) {
+    if (argc != [4]) {
         printf("Please enter numberGB, dayOfMonth, and dataUsage");
         exit (1);
     }
