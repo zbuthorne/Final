@@ -20,7 +20,7 @@
     dayOfMonth = atof(argv[2]);
     dataUsage = atof(argv[3]);
     double daysLeft = 30.0 - dayOfMonth;
-    double dataLeft = numberGB - data Usage;
+    double dataLeft = numberGB - dataUsage;
     double avgUse = dataUsage / dayOfMonth;
     double goodUse = numberGB / 30;
     double useOver = (avgUse * daysLeft) - numberGB;
@@ -45,6 +45,6 @@ if (dataUsage > numberGB) {
 
 
  }
-return (0)
+return (0);
  }
 
