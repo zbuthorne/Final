@@ -21,5 +21,9 @@
     dataUsage = atof(argv[3]);
     double daysLeft = 30.0 - dayOfMonth;
     double dataLeft = numberGB - data Usage;
-    if ()
+    double avgUse = dataUsage / dayOfMonth;
+    double goodUse = numberGB / 30;
+    if (avgUse > goodUse) {
+        printf()
+    }
  }
