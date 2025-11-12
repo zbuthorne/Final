@@ -33,5 +33,8 @@
         printf("%f GB\n", useOver);
         printf("To stay below your data plan use no more than %f GB/day\n", newAvg);
 
-    } else if (avgUse )
+    } else if (avgUse < goodUse);{
+        printf("%f used, %f remaining\n", dayOfMonth, daysLeft);
+        printf("Average Daily Use: %f gb/day\n", avgUse);
+    }
  }
