@@ -12,7 +12,7 @@
 
  int main(int argc, char **argv) {
     double numberGB, dayOfMonth, dataUsage;
-    if (argc != [4]) {
+    if (argc != 4) {
         printf("Please enter numberGB, dayOfMonth, and dataUsage");
         exit (1);
     }
@@ -26,7 +26,7 @@
     double useOver = (avgUse * daysLeft) - numberGB;
     double newAvg = (dataLeft / daysLeft);
 if (dataUsage > numberGB) {
-    printf("%f used, %f remaining\n", dayOfMonth, daysLeft);
+    printf("%f days used, %f days remaining\n", dayOfMonth, daysLeft);
     printf("Average Daily Use: %f gb/day\n", avgUse);
     printf("You have already met your limit for this month.  Looks like you're getting some overage charges...\n");
 }else if (avgUse > goodUse) {
