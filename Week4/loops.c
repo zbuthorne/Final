@@ -18,14 +18,16 @@
     }
     double x = atof (argv[1]);
     double y = atof (argv[2]);
+    double tolerance = .0000001;
     double a_prev, g_prev;
     //. |a_curr - g_curr|
-    while( abs(a curr - g curr) > tolerance) {
+    while( fabs(a curr - g curr) > tolerance) {
     a_curr= .5 * (a_prev + g_prev);
     g_curr = sqrt(a_prev * g_prev);
+    }
     double a = .5 * (x + y);
     double g = sqrt(x * y);
-    printf("The agm %f, %f = %f or %f \n", x , y, a, g);
+    printf("The agm %f, %f = %f or %f \n", x , y, a_curr);
     return(0);
  }
 
