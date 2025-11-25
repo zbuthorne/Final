@@ -13,7 +13,7 @@
  int main(int argc, char **argv) {
     double numberGB, dayOfMonth, dataUsage;
     if (argc != 4) {
-        printf("Please enter numberGB, dayOfMonth, and dataUsage");
+        printf("Please enter numberGB, dayOfMonth, and dataUsage\n");
         exit (1);
     }
     numberGB = atof(argv[1]);
@@ -30,7 +30,7 @@ if (dataUsage > numberGB) {
     printf("Average Daily Use: %f gb/day\n", avgUse);
     printf("You have already met your limit for this month.  Looks like you're getting some overage charges...\n");
 }else if (avgUse > goodUse) {
-        printf("%f used, %f remaining\n", dayOfMonth, daysLeft);
+        printf("%f days used, %f days remaining\n", dayOfMonth, daysLeft);
         printf("Average Daily Use: %f gb/day\n", avgUse);
         printf("You are exceeding your correct Avg daily use (%f)\n", goodUse);
         printf("Continuing this high usage you will exceed your data plan by\n");
@@ -38,7 +38,7 @@ if (dataUsage > numberGB) {
         printf("To stay below your data plan use no more than %f GB/day\n", newAvg);
 
     } else {
-        printf("%f used, %f remaining\n", dayOfMonth, daysLeft);
+        printf("%f days used, %f days remaining\n", dayOfMonth, daysLeft);
         printf("Average Daily Use: %f gb/day\n", avgUse);
         printf("You are at or below your correct Avg daily use (%f)\n", goodUse);
         printf("You can use up to %f GB/day and stay below your data plan limit\n",newAvg);
