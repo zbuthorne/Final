@@ -20,12 +20,13 @@
     double y = atof (argv[2]);
     double tolerance = .0000001;
     double a_prev, g_prev;
+    double a_curr = x, double g_curr = y;
     //. |a_curr - g_curr|
-    while( fabs(a curr - g curr) > tolerance) {
+    while( fabs(a_curr - g curr) > tolerance) {
     a_curr= .5 * (a_prev + g_prev);
     g_curr = sqrt(a_prev * g_prev);
     }
-    printf("The agm %f, %f = %f or %f \n", x , y, a_curr);
+    printf("The agm %f, %f = %f\n", x , y, a_curr);
     return(0);
  }
 
