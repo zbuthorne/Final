@@ -25,8 +25,6 @@
     a_curr= .5 * (a_prev + g_prev);
     g_curr = sqrt(a_prev * g_prev);
     }
-    double a = .5 * (x + y);
-    double g = sqrt(x * y);
     printf("The agm %f, %f = %f or %f \n", x , y, a_curr);
     return(0);
  }
