@@ -3,7 +3,8 @@
  *
  * Date: 11/24/25
  *
- * Computes 
+ * Computes the aarithmetic-geometri mean of two numbers.
+ * 
  */
 
  #include <stdlib.h>
