@@ -20,8 +20,8 @@
     double y = atof (argv[2]);
     double tolerance = .0000001;
     double a_prev = x, g_prev= y;
-    double a_curr;
-    double g_curr;
+    double a_curr = x;
+    double g_curr = y;
     //. |a_curr - g_curr|
     while( fabs(a_curr - g_curr) > tolerance) {
     a_curr= .5 * (a_prev + g_prev);
