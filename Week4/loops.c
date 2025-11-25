@@ -20,7 +20,7 @@
     double y = atof(argv[2]);
     double a = .5 * (x + y);
     double g = sqrt(x * y);
-    printf("The agm %f, %f = %f\n", x , y, );
+    printf("The agm %f, %f = %f or %f \n", x , y, a, g);
     return(0);
  }
 
