@@ -11,9 +11,10 @@
 
  int main(int argc, char argv) {
   int n = 60;
+  total = 
 		for(int i=0; i<=n; i++) {
 
 		}
-        
+
     }
 
