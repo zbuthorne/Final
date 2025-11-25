@@ -19,10 +19,11 @@
     double x = atof (argv[1]);
     double y = atof (argv[2]);
     double tolerance = .0000001;
-    double a_prev, g_prev;
-    double a_curr = x, double g_curr = y;
+    double a_prev = x, g_prev= y;
+    double a_curr;
+    double g_curr;
     //. |a_curr - g_curr|
-    while( fabs(a_curr - g curr) > tolerance) {
+    while( fabs(a_curr - g_curr) > tolerance) {
     a_curr= .5 * (a_prev + g_prev);
     g_curr = sqrt(a_prev * g_prev);
     }
