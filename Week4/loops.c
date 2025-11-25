@@ -14,6 +14,9 @@
  int main(int argc, char argv) {
     if(argc != 3) {
         printf("ERROR: incorrect input");
+        exit(1);
     }
+    double x = atof(argv[1]);
+    double y = atof(argv[2]);
  }
 
