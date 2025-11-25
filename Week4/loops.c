@@ -3,13 +3,13 @@
  *
  * Date: 11/24/25
  *
- * Makes a simple loop
+ * Computes 
  */
 
  #include <stdlib.h>
  #include <stdio.h>
  #include <stdbool.h>
- 
+ #include <math.h>
  int main(int argc, char argv) {
   int n = 60;
   total =
