@@ -19,7 +19,7 @@
     double x = atof(argv[1]);
     double y = atof(argv[2]);
     double a = .5 * (x + y);
-    double g = 
+    double g = sqrt(x * y);
     printf("The agm %f, %f = %f\n", x , y, );
     return(0);
  }
