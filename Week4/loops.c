@@ -18,6 +18,8 @@
     }
     double x = atof (argv[1]);
     double y = atof (argv[2]);
+    double a_prev, g_prev;
+    double a_curr = x, g_curr = y;
     double a = .5 * (x + y);
     double g = sqrt(x * y);
     printf("The agm %f, %f = %f or %f \n", x , y, a, g);
