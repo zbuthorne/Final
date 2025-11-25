@@ -18,5 +18,5 @@
             count ++;
         }
 
-        printf
+        printf("count = %d\n", count);
  }
