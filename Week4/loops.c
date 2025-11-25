@@ -20,6 +20,8 @@
     double y = atof (argv[2]);
     double a_prev, g_prev;
     double a_curr = x, g_curr = y;
+    while(a_curr and g_curr are NOT close enough...) {
+    a_curr= .5 * (a_prev + g_prev);
     double a = .5 * (x + y);
     double g = sqrt(x * y);
     printf("The agm %f, %f = %f or %f \n", x , y, a, g);
