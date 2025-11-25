@@ -11,8 +11,8 @@
 
  int main(int argc, char argv) {
   int n = 60;
-		for(int i=0; i<=n; int ++) {
-
+		for(int i=0; i<=n; i++) {
+            printf("i)
 		}
     }
-    
+
