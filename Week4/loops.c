@@ -11,9 +11,9 @@
  #include <stdio.h>
  #include <stdbool.h>
  #include <math.h>
- int main(int argc, char argv) {
+ int main(int argc, char *argv[]) {
     if(argc != 3) {
-        printf("ERROR: incorrect input\n", argv[0]);
+        printf("ERROR: incorrect input\n");
         exit(1);
     }
     double x = atof (argv[1]);
