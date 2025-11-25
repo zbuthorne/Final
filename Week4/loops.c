@@ -10,13 +10,8 @@
  #include <stdio.h>
 
  int main(int argc, char argv) {
-    int count = 0;
-    int n= 123456;
-    int originalN = 123456;
-    while (n > 0) {
-        n /= 10;
-        count++;
+    int n = 10;
+    for(int i=0; i <n; i++0) {
+        for(int j=0;)
     }
-    printf ("there are %d digits in %d\n", count, originalN);
  }
-
